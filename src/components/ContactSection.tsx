@@ -1,4 +1,4 @@
-import { Mail, Phone, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Instagram } from 'lucide-react';
 
 export function ContactSection() {
   return (
@@ -15,20 +15,13 @@ export function ContactSection() {
           </p>
         </div>
         <div className="space-y-4">
-          <a href="mailto:hello@drsmile.com" className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary">
-            <Mail className="h-5 w-5 text-primary" />
-            <span>hello@drsmile.com</span>
-          </a>
-          <a href="tel:+10000000000" className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary">
+          <a href="tel:+9647758979888" className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary">
             <Phone className="h-5 w-5 text-primary" />
-            <span>+1 (000) 000-0000</span>
+            <span>07758979888</span>
           </a>
           <div className="flex gap-3">
-            <a href="#" aria-label="Instagram" className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-card transition-colors hover:border-primary hover:text-primary">
+            <a href="https://www.instagram.com/dr_ayat_ahmed_hassan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-card transition-colors hover:border-primary hover:text-primary">
               <Instagram className="h-5 w-5" />
-            </a>
-            <a href="#" aria-label="LinkedIn" className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-card transition-colors hover:border-primary hover:text-primary">
-              <Linkedin className="h-5 w-5" />
             </a>
           </div>
         </div>
