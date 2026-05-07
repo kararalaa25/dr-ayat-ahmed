@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { CATEGORIES } from '@/lib/categories';
 
 const DESCRIPTIONS: Record<string, string> = {
-  crown_bridge: 'Precision-milled restorations with anatomic detail',
-  veneers_dsd: 'Smile makeovers using digital mock-ups and DSD protocols',
-  surgical_guides: 'Implant guides engineered for predictable surgery',
-  exocad: 'Full-mouth rehab and library work in Exocad DentalCAD',
+  crown_bridge: 'Fixed prosthodontic crowns and bridges restoring form and function',
+  veneers_dsd: 'Direct composite veneers crafted chairside for natural aesthetics',
+  surgical_guides: 'Root canal therapy preserving the natural dentition',
+  exocad: 'Anterior and posterior composite restorations with refined anatomy',
 };
 
 // Asymmetric bento grid spans (Remedy-style)
