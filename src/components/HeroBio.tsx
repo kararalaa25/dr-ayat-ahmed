@@ -15,36 +15,37 @@ export function HeroBio() {
           <div className="bento-card glass animate-pop-in">
             <div className="inline-flex items-center gap-2 rounded-full bg-accent/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent-foreground">
               <Sparkles className="h-3.5 w-3.5" />
-              Digital Dentistry · CAD-CAM
+              General Dentistry · Restorative Care
             </div>
 
             <p className="mt-6 font-script text-3xl text-accent animate-fade-up delay-100">Hello, I'm</p>
             <h1 className="mt-1 font-script text-6xl font-bold leading-[1.05] tracking-tight text-foreground animate-fade-up delay-200 md:text-7xl lg:text-8xl">
-              Dr. Fatima Amer
+              Dr. Ayat Ahmed
             </h1>
 
             <p className="mt-8 font-script text-2xl leading-relaxed text-foreground/80 animate-fade-up delay-300">
-              "Where art meets precision — every smile is a digitally crafted masterpiece."
+              "Conservative dentistry, lasting results — every restoration crafted with care."
             </p>
             <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground animate-fade-up delay-500">
-              Two years of experience designing prosthetics, surgical guides, and digital
-              smile makeovers. Specialized in <span className="font-semibold text-foreground">Exocad</span>,{' '}
-              <span className="font-semibold text-foreground">Blue Sky Plan</span>, and{' '}
-              <span className="font-semibold text-foreground">Blender</span> workflows.
+              A general dentist focused on everyday restorative excellence — from{' '}
+              <span className="font-semibold text-foreground">Class I & II composite</span> restorations and{' '}
+              <span className="font-semibold text-foreground">crown & bridge</span> work to{' '}
+              <span className="font-semibold text-foreground">endodontic treatment</span> and{' '}
+              <span className="font-semibold text-foreground">direct veneers</span>.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-2.5 animate-fade-up delay-700">
               <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-4 py-2 text-sm font-medium text-foreground">
                 <Award className="h-4 w-4 text-accent" />
-                BDS, University of Babylon
+                General Dentist
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-4 py-2 text-sm font-medium text-foreground">
                 <Award className="h-4 w-4 text-accent" />
-                Exocad Certified Designer
+                Restorative & Endodontics
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-4 py-2 text-sm font-medium text-foreground">
                 <Award className="h-4 w-4 text-accent" />
-                Galaxy Academy
+                Direct Veneers
               </span>
             </div>
 
@@ -64,19 +65,19 @@ export function HeroBio() {
           <div className="relative overflow-hidden rounded-[2rem] border border-white shadow-soft animate-pop-in">
             <img
               src={portrait}
-              alt="Dr. Fatima Amer, digital dentist and CAD-CAM specialist"
+              alt="Dr. Ayat Ahmed, general dentist"
               width={1024}
               height={1024}
               className="h-full w-full object-cover"
             />
           </div>
           <div className="absolute -bottom-6 -left-6 rounded-3xl glass p-5 shadow-card animate-fade-up delay-700">
-            <p className="font-script text-3xl text-accent">2+ years</p>
-            <p className="text-xs uppercase tracking-wider text-muted-foreground">Digital dentistry</p>
+            <p className="font-script text-3xl text-accent">General</p>
+            <p className="text-xs uppercase tracking-wider text-muted-foreground">Dental practice</p>
           </div>
           <div className="absolute -right-4 top-10 rounded-3xl glass p-5 shadow-card animate-fade-up delay-500">
-            <p className="font-script text-3xl text-accent">500+</p>
-            <p className="text-xs uppercase tracking-wider text-muted-foreground">Cases delivered</p>
+            <p className="font-script text-3xl text-accent">Archive</p>
+            <p className="text-xs uppercase tracking-wider text-muted-foreground">Clinical cases</p>
           </div>
         </div>
       </div>
