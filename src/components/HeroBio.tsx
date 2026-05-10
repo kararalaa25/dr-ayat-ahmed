@@ -75,7 +75,7 @@ export function HeroBio() {
             <p className="font-script text-3xl text-accent">General</p>
             <p className="text-xs uppercase tracking-wider text-muted-foreground">Dental practice</p>
           </div>
-          <div className="absolute -right-4 top-10 rounded-3xl glass p-5 shadow-card animate-fade-up delay-500">
+          <div className="absolute -right-4 -top-4 rounded-3xl glass p-5 shadow-card animate-fade-up delay-500">
             <p className="font-script text-3xl text-accent">Archive</p>
             <p className="text-xs uppercase tracking-wider text-muted-foreground">Clinical cases</p>
           </div>
