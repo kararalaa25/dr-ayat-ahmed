@@ -4,17 +4,22 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode, command }) => ({
+  // This automatically switches between '/' for local and '/dr-ayat-ahmed/' for GitHub
+  base: command === 'build' ? "/dr-ayat-ahmed/" : "/",
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [
+    react(),
+    mode === "development" && componentTagger(),
+  ].filter(Boolean),
   resolve: {
-    // Prevent multiple React copies (fixes "Cannot read properties of null (reading 'useRef')")
-    dedupe: ["react", "react-dom"],
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Prevent multiple React copies
+  dedupe: ["react", "react-dom"],
 }));
