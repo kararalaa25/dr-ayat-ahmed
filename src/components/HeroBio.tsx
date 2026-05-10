@@ -13,7 +13,7 @@ export function HeroBio() {
         {/* Bio bento card */}
         <div className="relative order-2 lg:order-1 lg:col-span-7">
           <div className="bento-card glass animate-pop-in">
-            <div className="inline-flex items-center gap-2 rounded-full bg-accent/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent-foreground">
+            <div className="inline-flex items-center gap-2 rounded-full bg-accent/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent-foreground hover:bg-accent/30 cursor-default">
               <Sparkles className="h-3.5 w-3.5" />
               General Dentistry · Restorative Care
             </div>
