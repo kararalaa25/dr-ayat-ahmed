@@ -3,9 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => ({
-  // This automatically switches between '/' for local and '/dr-ayat-ahmed/' for GitHub
   base: command === 'build' ? "/dr-ayat-ahmed/" : "/",
   server: {
     host: "::",
@@ -20,6 +18,5 @@ export default defineConfig(({ mode, command }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Prevent multiple React copies
   dedupe: ["react", "react-dom"],
 }));
